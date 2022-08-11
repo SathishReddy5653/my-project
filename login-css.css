@@ -1,0 +1,25 @@
+
+            table,
+            th,
+            td {
+                background-color: aqua;
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 20px;
+            }
+            body {
+                  background-color: lightblue;
+                   }
+           
+           
+           #button{
+                 padding: 10px;
+                 background-color: #0909ef;
+                 color: white;
+                 margin: 2px 0;
+                 border: 2px;
+                 cursor: pointer;
+                 width: 100%;
+                 opacity: 0.9;
+            
+           }

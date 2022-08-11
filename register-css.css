@@ -1,0 +1,74 @@
+   
+           
+          
+           table,
+            th,
+            td {
+                background-color: rgb(243, 235, 225);
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 20px;
+            } 
+           body {
+                background-color: rgb(246, 246, 203);
+                  font-family: Arial, Helvetica, sans-serif;
+                
+                  }
+        
+            .registerbtn {
+                padding: 20px;
+                 background-color: #04AA6D;
+                 color: white;
+                 margin: 8px 0;
+                 border: 2px;
+                 cursor: pointer;
+                 width: 100%;
+                 opacity: 0.9;
+                 }
+            .registerbtn:hover {
+                opacity: 1;
+                }
+            /* Add a blue text color to links */
+            a {
+                  color: dodgerblue;
+               }
+
+            .login 
+               {
+                   background-color: #f1f1f1;
+                   text-align: center;
+                   }
+            #message {
+                    display: none;
+                    background: #f1f1f1;
+                    position: relative;
+                    padding: 10px;
+                    margin-top: 10px;
+                   }
+                    
+
+            #message p {
+                    padding: 10px 35px;
+                    font-size: 10px;
+                    }  
+
+            .valid {
+                  color: green;
+                   }
+            .valid:before {
+                     position: relative;
+                      left: -35px;
+                      content: "&#10004;";
+                    }
+
+            .invalid {
+                       color: red;
+                      }        
+            .invalid:before {
+                       position: relative;
+                       left: -35px;
+                       content: "&#10006;";
+                       }      
+            
+            
+        
